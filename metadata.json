@@ -1,0 +1,6 @@
+{
+  "name": "Shakti Jewellers - Luxury Jewellery Gujarat",
+  "description": "Premium online jewellery catalogue for Shakti Jewellers in Gujarat, India. Featuring handcrafted Gold, Silver, Diamond, and Bridal collections with bespoke WhatsApp enquiry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
