@@ -8,32 +8,32 @@ export const InstagramGallery: React.FC = () => {
 
   const sampleGalleryItems = [
     {
-      image: "/src/assets/images/editorial_gold_model_necklace_1794054595939.jpg",
+      image: "/assets/brand/editorial_gold_collection.jpg",
       tag: "#HeritageGold",
       caption: "A timeless dialogue between 22k gold and royal craftsmanship.",
     },
     {
-      image: "/src/assets/images/editorial_bridal_model_1794054599860.jpg",
+      image: "/assets/brand/editorial_bridal_collection.jpg",
       tag: "#BridalOpulence",
       caption: "Uncut polki emerald accents draped in regal crimson silk.",
     },
     {
-      image: "/src/assets/images/editorial_silver_model_1794054597470.jpg",
+      image: "/assets/brand/editorial_silver_collection.jpg",
       tag: "#SterlingSilver",
       caption: "Luminous sterling silver handcrafted ornaments.",
     },
     {
-      image: "/src/assets/images/editorial_diamond_model_1794054597227.jpg",
+      image: "/assets/brand/editorial_diamond_collection.jpg",
       tag: "#SolitaireBrilliance",
       caption: "Reflecting prismatic light on deep obsidian stone.",
     },
     {
-      image: "/src/assets/images/luxury_showroom_interior_1794054598664.jpg",
+      image: "/assets/brand/luxury_showroom_interior.jpg",
       tag: "#ShowroomGujarat",
       caption: "Our luxury jewellery boutique showroom in Gujarat.",
     },
     {
-      image: "/src/assets/images/hero_luxury_jewellery_1794052851788.jpg",
+      image: "/assets/hero/hero_luxury_jewellery.jpg",
       tag: "#ShaktiJewellers",
       caption: "Gujarat's bespoke jewellery design sanctuary.",
     },

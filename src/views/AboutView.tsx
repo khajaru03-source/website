@@ -59,7 +59,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate }) => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="relative aspect-[4/3] overflow-hidden border border-[#C6A15B]/40 shadow-2xl group">
             <img
-              src="/src/assets/images/luxury_showroom_interior_1794054598664.jpg"
+              src="/assets/brand/luxury_showroom_interior.jpg"
               alt="Shakti Jewellers High-End Luxury Showroom Interior in Gujarat"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"

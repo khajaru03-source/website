@@ -22,7 +22,7 @@ export const BrandStorySection: React.FC<BrandStorySectionProps> = ({ onLearnMor
           <div className="relative group">
             <div className="relative overflow-hidden aspect-[4/3] border border-[#C6A15B]/30 shadow-2xl">
               <img
-                src="/src/assets/images/jewellery_artisan_craft_1794052851838.jpg"
+                src="/assets/brand/jewellery_artisan_craft.jpg"
                 alt="Master Artisan Goldsmith crafting jewellery for Shakti Jewellers in Gujarat"
                 referrerPolicy="no-referrer"
                 loading="lazy"

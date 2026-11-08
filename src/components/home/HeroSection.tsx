@@ -22,7 +22,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
       {/* Background Campaign Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_luxury_jewellery_1794052851788.jpg"
+          src="/assets/hero/hero_luxury_jewellery.jpg"
           alt="Shakti Jewellers Heritage Campaign - Handcrafted 22k Gold & Diamond Necklace"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center scale-100 animate-in fade-in zoom-in-105 duration-1000"

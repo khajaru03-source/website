@@ -20,7 +20,7 @@ export const BridalCampaignSection: React.FC<BridalCampaignSectionProps> = ({
       {/* Background Photography with Luxury Scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/bridal_jewellery_campaign_1794052849445.jpg"
+          src="/assets/brand/bridal_jewellery_campaign.jpg"
           alt="Royal Indian Bridal Jewellery Set by Shakti Jewellers"
           referrerPolicy="no-referrer"
           loading="lazy"
