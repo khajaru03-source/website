@@ -2,17 +2,20 @@
 
 @layer base {
   :root {
-    --color-bg-primary: #11100E;
-    --color-bg-secondary: #1B1916;
-    --color-gold-champagne: #C6A15B;
-    --color-gold-light: #E5CC91;
-    --color-ivory: #F7F4EE;
-    --color-text-muted: #A8A29A;
+    --color-bg-taupe: #B8A58A;
+    --color-bg-taupe-light: #C9BBA5;
+    --color-bg-taupe-pale: #F3EFE9;
+    --color-bg-taupe-deep: #9E8B72;
+    --color-text-charcoal: #252525;
+    --color-text-charcoal-muted: #544E45;
+    --color-gold-antique: #C5A059;
+    --color-gold-light: #DFC285;
+    --color-gold-deep: #997837;
   }
 
   body {
-    background-color: #11100E;
-    color: #F7F4EE;
+    background-color: #B8A58A;
+    color: #252525;
     font-family: 'Plus Jakarta Sans', 'Noto Sans Gujarati', system-ui, sans-serif;
   }
 
@@ -31,23 +34,29 @@
   height: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #11100E;
+  background: #B8A58A;
 }
 ::-webkit-scrollbar-thumb {
-  background: #2D2720;
+  background: #9E8B72;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #C6A15B;
+  background: #C5A059;
 }
 
-/* Subtle luxury gold gradient utilities */
+/* Refined Antique Gold accents & editorial rules */
 .gold-gradient-text {
-  background: linear-gradient(135deg, #F7F4EE 0%, #E5CC91 50%, #C6A15B 100%);
+  background: linear-gradient(135deg, #252525 0%, #C5A059 60%, #997837 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-text-light {
+  background: linear-gradient(135deg, #F3EFE9 0%, #DFC285 50%, #C5A059 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gold-border-glow {
-  box-shadow: 0 0 25px -5px rgba(198, 161, 91, 0.15);
+  box-shadow: 0 0 25px -5px rgba(197, 160, 89, 0.15);
 }
